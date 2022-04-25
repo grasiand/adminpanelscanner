@@ -5,8 +5,8 @@ import time
 import pyautogui
 
 author="Grasiand"
-print("AUTHOR GRASİAND")
-print("Örnek : https://www.example.com ]")
+print("Ꮆ尺卂丂İ卂几ᗪ")
+print("Örnek : https://www.ornek.com ")
 
 url = input("\nWebsite : ")
 
@@ -256,7 +256,7 @@ for link2 in link :
 
         openurl = urllib.request.urlopen(link3)
 
-        print("\n\033[1;34m" + "h.o buldu : "+link3)
+        print("\n\033[1;34m" + "Bulundu : "+link3)
         pyautogui.hotkey('ctrl', 'z')
 
 
@@ -268,5 +268,5 @@ for link2 in link :
         print ("\n\033[33;39mBulunamadı Bekle : "+link3)
 
 else:
-     print("hadi sq")
+     print("Bitti")
      exit()
